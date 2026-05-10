@@ -1,0 +1,29 @@
+# GitHub Pages Configuration
+# 这个文件让 GitHub Pages 知道如何构建你的网站
+
+theme: minima
+title: TechPulse
+description: 每周精选 AI & SaaS 工具情报
+show_downloads: false
+
+# 如果你想用自己的域名，取消下面这行的注释并填入你的域名
+# domain: yourdomain.com
+# url: https://yourdomain.com
+
+# GitHub Pages 默认设置
+github:
+  is_project_page: false
+  repository_url: https://github.com/yourusername/yourusername.github.io
+
+# Jekyll 主题配置
+plugins:
+  - jekyll-seo-tag
+  - jekyll-feed
+
+# 忽略不需要的文件
+exclude:
+  - node_modules/
+  - package.json
+  - package-lock.json
+  - README.md
+  - LICENSE
